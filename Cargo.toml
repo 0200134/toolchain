@@ -1,0 +1,18 @@
+[package]
+name = "jdkm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+scraper = "0.13"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+zip = "0.6"
+dirs = "4.0"
+walkdir = "2.5"
+eframe = "0.28" # For egui integration
+egui = "0.28"
+tar = "0.4"
+flate2 = "1.0"
+xz2 = "0.1"
